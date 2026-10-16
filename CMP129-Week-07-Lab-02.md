@@ -100,12 +100,12 @@ Mutable-Immutable-Report.md
 
 Answer the following questions in your own words:
 
-1. What does mutable mean?
-2. What does immutable mean?
-3. What allows MutableStudent objects to change?
-4. Why does ImmutableStudent not have setter methods?
-5. What is the purpose of final on the fields in ImmutableStudent?
-6. What is the main difference you observed when testing the two classes?
+1. What does mutable mean? It can be changed
+2. What does immutable mean? It cant be changed
+3. What allows MutableStudent objects to change? Set methods
+4. Why does ImmutableStudent not have setter methods? Because we want it to be immutable
+5. What is the purpose of final on the fields in ImmutableStudent? to make it immutable
+6. What is the main difference you observed when testing the two classes? mutable class is way easier to use
 
 Keep your answers short and clear.
 

@@ -3,26 +3,47 @@ public class MutableStudent {
     // TODO: Create two private fields:
     // 1. name (String)
     // 2. age (int)
+    private String name;
+    private int age;
 
 
     // TODO: Create a constructor that receives name and age.
     // Store the values in the object's fields.
+    MutableStudent(String n, int a){
+        name = n;
+        age = a;
+    }
 
 
     // TODO: Create a getter for name.
+    public String getName(){
+        return name;
+    }
 
 
     // TODO: Create a getter for age.
+    public int getAge(){
+        return age;
+    }
 
 
     // TODO: Create a setter for name.
     // This method should CHANGE the existing object's name.
+    public void setName(String n){
+        name = n;
+    }
 
 
     // TODO: Create a setter for age.
     // This method should CHANGE the existing object's age.
+    public void setAge(int i){
+        age = i;
+    }
 
 
     // TODO: Create a displayInfo() method.
     // Display the student's name and age.
+    public void displayInfo(){
+        System.out.println(age + " " + name);
+    }
 }
